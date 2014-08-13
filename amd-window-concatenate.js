@@ -10,8 +10,4 @@
  */
 
 // when concatenating the modules should be named
-define('amd-window', function () {
-"use strict";
-
-    return window;
-});
+define('amd-window', window);

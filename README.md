@@ -25,3 +25,16 @@ Your AMD module should depend on AMD window:
 ### Why `window` and `undefined`?
 
 You can read about it in this [SO question](http://stackoverflow.com/questions/8275658/passing-window-and-undefined-to-an-immediately-invoked-anonymous-function-why)
+
+### The `window` object cannot be shadowed
+
+```js
+window = {
+    num: 5,
+    str: 'text'
+}
+
+if (typeof window.num === 'undefined') {
+    console.log('Yes, you cannot shadow the windows object');
+}
+```

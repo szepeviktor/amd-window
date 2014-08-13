@@ -1,7 +1,7 @@
 amd-window
 ==========
 
-Helps depending on the window object
+Helps depending on the **window** object
 
 ### Usage with [curl.js](https://github.com/cujojs/curl)
 

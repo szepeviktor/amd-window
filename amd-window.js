@@ -9,8 +9,4 @@
  *
  */
 
-define(function () {
-"use strict";
-
-    return window;
-});
+define(window);

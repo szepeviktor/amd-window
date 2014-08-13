@@ -39,3 +39,7 @@ if (typeof window.num === 'undefined') {
     console.log('Yes, you cannot shadow the windows object');
 }
 ```
+
+### Is your code running in multiple environments?
+
+[amd-global](https://github.com/szepeviktor/amd-global)

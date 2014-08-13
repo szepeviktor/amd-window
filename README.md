@@ -1,7 +1,8 @@
 amd-window
 ==========
 
-Helps depending on the **window** object
+Helps depending on the **window** object  
+It is useful in [UMD](https://github.com/umdjs/umd) compatible window-manipulating jQuery plugins.
 
 ### Usage with [curl.js](https://github.com/cujojs/curl)
 
